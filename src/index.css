@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --brand-gradient: linear-gradient(90deg, #f97316, #ec4899, #8b5cf6);
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+.text-gradient {
+  background-image: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-gradient {
+  background-image: var(--brand-gradient);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
