@@ -1,8 +1,16 @@
 function TechCard({ tech, isInStack, onAdd }) {
   return (
-    <div className="flex flex-col rounded-2xl border border-gray-100 bg-white p-5 shadow-sm">
+    <div
+      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm ${
+        isInStack ? "border-green-300" : "border-gray-100"
+      }`}
+    >
       <div className="flex items-start justify-between">
-        <img src={tech.icon} alt={tech.name} className="h-9 w-9 object-contain" />
+        <img
+          src={tech.icon}
+          alt={tech.name}
+          className="h-9 w-9 object-contain"
+        />
         {tech.badge && (
           <span className="badge border-0 bg-pink-50 text-xs font-semibold text-pink-600">
             {tech.badge}
@@ -27,14 +35,14 @@ function TechCard({ tech, isInStack, onAdd }) {
         disabled={isInStack}
         className={
           isInStack
-            ? 'btn mt-4 w-full cursor-default rounded-lg border-none bg-green-100 text-green-700'
-            : 'btn mt-4 w-full rounded-lg border-none bg-slate-900 text-white hover:bg-slate-800'
+            ? "btn mt-4 w-full cursor-default rounded-lg border-none bg-green-100 text-green-700"
+            : "btn mt-4 w-full rounded-lg border-none bg-slate-900 text-white hover:bg-slate-800"
         }
       >
-        {isInStack ? '✓ Added to Stack' : 'Add to Stack'}
+        {isInStack ? "✓ Added to Stack" : "Add to Stack"}
       </button>
     </div>
-  )
+  );
 }
 
-export default TechCard
+export default TechCard;
