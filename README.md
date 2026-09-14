@@ -1,16 +1,69 @@
-# React + Vite
+# 🧱 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Dev Stack Builder** web application built with React and Tailwind CSS. Users can explore different development technologies and create their own personalized technology stack by adding and removing technologies.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[> Add your deployed website link here.
+](https://dev-stack-two-snowy.vercel.app/)
+## 📂 GitHub Repository
 
-## React Compiler
+[> Add your GitHub repository link here.](https://github.com/rasib-iftekhar/B14-A05-DevStack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* 🔍 Explore modern web development technologies
+* 🧰 Build a personalized technology stack
+* ➕ Add technologies to your stack
+* ❌ Remove individual technologies
+* 🗑️ Remove all selected technologies at once
+* 🚫 Prevent duplicate technologies from being added
+* 🔔 Toast notifications for add, duplicate, remove, and remove-all actions
+* ⏳ Loading state while fetching technology data
+* 📱 Fully responsive design for mobile, tablet, and desktop
+* 🎨 Shared gradient theme throughout the website
+* 📦 Technology information loaded dynamically from a JSON file
+
+---
+
+## 🛠️ Technologies Used
+
+* **React.js** — Frontend library
+* **JavaScript (ES6+)** — Programming language
+* **Tailwind CSS** — Styling and responsive design
+* **React Toastify** — Toast notifications
+* **JSON** — Technology data source
+* **Vite** — Development and build tool
+
+---
+
+## 📸 Project Overview
+
+Dev Stack Builder provides a simple interface where users can browse available technologies and select the tools they want to use in their development stack.
+
+Each technology card contains:
+
+* Technology icon
+* Technology name
+* Category
+* Description
+* Difficulty level
+* Rating
+* Technology badge
+* Add to Stack button
+
+The selected technologies are displayed in the **Your Stack** sidebar.
+
+---
+
+## 🧩 Main Sections
+
+### 🧭 Navbar
+
+The navigation bar includes:
+
+* Dev Stack brand
+* Home
+* Tech
