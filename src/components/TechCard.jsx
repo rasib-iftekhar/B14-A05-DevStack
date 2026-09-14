@@ -1,7 +1,7 @@
 function TechCard({ tech, isInStack, onAdd }) {
   return (
     <div
-      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm ${
+      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
         isInStack ? "border-green-300" : "border-gray-100"
       }`}
     >
