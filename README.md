@@ -14,7 +14,9 @@ A modern and responsive **Dev Stack Builder** web application built with React a
 
 ## 📸 Screenshot
 
-![Dev Stack Builder Screenshot](./public/screenshot.png)
+<img width="1899" height="910" alt="image" src="https://github.com/user-attachments/assets/57c13fa3-4712-4da0-a6c7-96fa9a20a6a2" />
+<img width="1901" height="915" alt="image" src="https://github.com/user-attachments/assets/502f3866-f5c3-44dd-bf1d-d7f5bba6a452" />
+
 
 ---
 
