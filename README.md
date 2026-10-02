@@ -6,9 +6,9 @@ A modern and responsive **Dev Stack Builder** web application built with React a
 
 ## 📸 Screenshot
 
-<img width="1899" height="910" alt="image" src="https://github.com/user-attachments/assets/57c13fa3-4712-4da0-a6c7-96fa9a20a6a2" />
-<img width="1901" height="915" alt="image" src="https://github.com/user-attachments/assets/502f3866-f5c3-44dd-bf1d-d7f5bba6a452" />
+<img width="1899" height="910" alt="Dev Stack Builder Screenshot" src="https://github.com/user-attachments/assets/57c13fa3-4712-4da0-a6c7-96fa9a20a6a2" />
 
+<img width="1901" height="915" alt="Dev Stack Builder Screenshot" src="https://github.com/user-attachments/assets/502f3866-f5c3-44dd-bf1d-d7f5bba6a452" />
 
 ---
 
@@ -70,20 +70,85 @@ The selected technologies are displayed in the **Your Stack** sidebar.
 
 ---
 
-## 🔗 Live Website
-
-👉 https://dev-stack-two-snowy.vercel.app/
-
-## 📂 GitHub Repository
-
-👉 https://github.com/rasib-iftekhar/B14-A05-DevStack
-
----
-
-
 ## 💻 Run Locally
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/rasib-iftekhar/B14-A05-DevStack.git
+```
+
+### 2. Go to the project directory
+
+```bash
+cd B14-A05-DevStack
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in your browser
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🧰 Available Scripts
+
+### Development
+
+```bash
+npm run dev
+```
+
+Runs the project in development mode.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Creates a production-ready build.
+
+### Preview
+
+```bash
+npm run preview
+```
+
+Previews the production build locally.
+
+---
+
+## 🌐 Links
+
+- 🔗 **Live Website:** [https://dev-stack-two-snowy.vercel.app/](https://dev-stack-two-snowy.vercel.app/)
+- 📂 **GitHub Repository:** [https://github.com/rasib-iftekhar/B14-A05-DevStack](https://github.com/rasib-iftekhar/B14-A05-DevStack)
+
+---
+
+## 👨‍💻 Author
+
+### Mohammad Rasib Iftekhar Nabil
+
+- 🐙 **GitHub:** [https://github.com/rasib-iftekhar](https://github.com/rasib-iftekhar)
+- 🌐 **Portfolio:** [https://rasib.com.bd](https://rasib.com.bd)
+- 📧 **Email:** [rasib.info@gmail.com](mailto:rasib.info@gmail.com)
+
+---
+
+<p align="center">
+  Made with ❤️ using React & Tailwind CSS
+</p>
