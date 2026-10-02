@@ -2,14 +2,6 @@
 
 A modern and responsive **Dev Stack Builder** web application built with React and Tailwind CSS. Users can explore different development technologies and create their own personalized technology stack by adding and removing technologies.
 
-## 🔗 Live Website
-
-👉 https://dev-stack-two-snowy.vercel.app/
-
-## 📂 GitHub Repository
-
-👉 https://github.com/rasib-iftekhar/B14-A05-DevStack
-
 ---
 
 ## 📸 Screenshot
@@ -77,6 +69,17 @@ Each technology card contains:
 The selected technologies are displayed in the **Your Stack** sidebar.
 
 ---
+
+## 🔗 Live Website
+
+👉 https://dev-stack-two-snowy.vercel.app/
+
+## 📂 GitHub Repository
+
+👉 https://github.com/rasib-iftekhar/B14-A05-DevStack
+
+---
+
 
 ## 💻 Run Locally
 
